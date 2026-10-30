@@ -8,7 +8,7 @@ RD={
 'fr':['29 chambres extérieures décorées de tableaux-têtes de lit de la série Mantón, d\'Ana Sanz. Toutes avec douche hydromassage, musique d\'ambiance, ordinateur portable et WiFi haut débit gratuit.','Penthouse de luxe avec terrasse privée, entièrement équipé.'],
 'de':['29 Außenzimmer mit Kopfteil-Bildern der Serie Mantón von Ana Sanz. Alle mit Hydromassage-Dusche, Musikanlage, Laptop und kostenlosem Highspeed-WLAN.','Luxus-Penthouse mit privater Terrasse, voll ausgestattet.']}
 ART={
-'hero':('waves',9501,['#ecf0f2','#f6f3ec','#2d4f73','#1e3550','#101f30']),
+'hero':('waves',9501,['#b9c6cf','#cfc8bb','#1f3a58','#16293f','#0c1826']),
 'intro':('arches',9502,['#eef0ec','#e6b37e','#2d4f73','#1e3550','#101f30']),
 'r1':('skyline',9511,['#1e3550','#e5a86b','#f4d6a6','#7a3e5a','#633149','#401f30']),
 'r2':('hills',9512,['#eceff2','#f1e6d0','#e3b273','#9fb2c4','#6f88a0','#4a627a']),

@@ -6,7 +6,7 @@
  "assets": [
   {
    "path": "img/hero.webp",
-   "sha256": "ee2b015daa8944a6b0643a7c2852663d705ad8e787aed9fd9ac671fc3e21e653",
+   "sha256": "ca1a74401cf57c939e7da247212b77ecbf06ebdb29f31a8dbcfc2ea15d622a71",
    "origin": "generated",
    "source_url": null,
    "title": "Ilustracion waves (hero)",
@@ -19,13 +19,13 @@
    "depicts_real_business": false,
    "shown_label": "Imagen ilustrativa",
    "tool": "berawa/build/make_art.py (Pillow)",
-   "prompt_sha256": "d90d2fd4848dd9b4975455fdf632fa76bacceed8abef746c65408107476fd9e2",
+   "prompt_sha256": "8ad1b3ebe0f04ab79d6df7d8f55010bc02ede7de0e65c27b4a1bb94cce2cf72b",
    "retrieved_at": "2026-10-30T07:25:00+01:00",
    "evidence": "berawa/evidence/assets/hero.txt"
   },
   {
    "path": "img/hero-m.webp",
-   "sha256": "c3590666c557a3e5d015ff8b231a09cd4354658db008c9406dad88159a7e48da",
+   "sha256": "6049343fe87f94ac52268e5d73825ffdf1429088f2aca4cef732f5cb1f3bb7a5",
    "origin": "generated",
    "source_url": null,
    "title": "Ilustracion waves (hero)",
@@ -38,7 +38,7 @@
    "depicts_real_business": false,
    "shown_label": "Imagen ilustrativa",
    "tool": "berawa/build/make_art.py (Pillow)",
-   "prompt_sha256": "d90d2fd4848dd9b4975455fdf632fa76bacceed8abef746c65408107476fd9e2",
+   "prompt_sha256": "8ad1b3ebe0f04ab79d6df7d8f55010bc02ede7de0e65c27b4a1bb94cce2cf72b",
    "retrieved_at": "2026-10-30T07:25:00+01:00",
    "evidence": "berawa/evidence/assets/hero.txt"
   },
