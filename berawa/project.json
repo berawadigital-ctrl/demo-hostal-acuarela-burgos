@@ -1,0 +1,63 @@
+{
+ "schema": "berawa-project/1",
+ "slug": "demo-hostal-acuarela-burgos",
+ "template_version": "webfactory-2026.10.28+modelo-cazorla-6cfa67d",
+ "created_at": "2026-10-30T07:12:30+01:00",
+ "updated_at": "2026-10-30T07:25:00+01:00",
+ "business": {
+  "name": "Hostal Acuarela",
+  "legal_name": "HOSTAL ACUARELA, S.L.",
+  "registry_ids": [
+   "CIF B09497579"
+  ],
+  "url": "https://hostalacuarela.com/",
+  "domain": "hostalacuarela.com",
+  "municipality": "Burgos",
+  "province": "Burgos",
+  "address": "Calle Guardia Civil 7 · Burgos",
+  "phones": [
+   "+34 947 20 50 50"
+  ],
+  "emails": [
+   "reservas@hostalacuarela.com"
+  ],
+  "sector": "hostal de diseño de 29 habitaciones y un Estudio-Suite en el centro de Burgos"
+ },
+ "rating": {
+  "value": 4.1,
+  "source": "Google Maps (maps_rating.py, ficha comprobada por telefono, web)",
+  "url": "https://www.google.com/maps/place/Hostal+Acuarela/@42.3451614,-3.69491,17z/data=!4m9!3m8!1s0xd45fcda8eabec5d:0x360771483d799dbb!5m2!4m1!1i2!8m2!3d42.3451614!4d-3.69491!16s%2Fg%2F1vc_rp1w",
+  "date": "2026-10-29T12:43:53+01:00",
+  "threshold": 4.0
+ },
+ "languages": [
+  "es",
+  "en",
+  "fr",
+  "de"
+ ],
+ "noindex": true,
+ "notice_es": "Propuesta de rediseño independiente, no oficial",
+ "chatbot": {
+  "api": false,
+  "kind": "base local de respuestas verificadas",
+  "knowledge": "berawa/knowledge.json",
+  "fallback_es": "No dispongo de esa información"
+ },
+ "book": {
+  "mode": "mail",
+  "url": "mailto:reservas@hostalacuarela.com",
+  "note": "Su web no tiene motor de reservas: la sección Reservas pide reservar por WhatsApp (638 968 116), correo (reservas@hostalacuarela.com) o teléfono (947 20 50 50). La demo enlaza el correo y el teléfono reales y no construye ningún motor."
+ },
+ "audit_original": {
+  "url": "https://hostalacuarela.com/",
+  "date": "2026-10-30T06:52:00+01:00",
+  "veredicto": "LCP > 4 s",
+  "tool": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "first_of_type": "no aplica: alojamiento con precedente en demos anteriores",
+ "codex": {
+  "audits": []
+ },
+ "changes_log": "ver CORRECCIONES.md (si existe) y berawa/V1.0-CAMBIOS.md"
+}

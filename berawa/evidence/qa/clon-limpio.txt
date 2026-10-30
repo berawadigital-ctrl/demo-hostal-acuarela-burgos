@@ -1,0 +1,12 @@
+HEAD 3396228ac11c25a9588bb7f1b0fe62d51a7f9cbb
+OK    check_kb (citas + regla de precios P1-P6) sobre berawa/knowledge.json
+OK    tests_hostal_acuarela_burgos: 4 idiomas + chatbot contra la base (HTTP)
+OK    a11y_test: axe-core + teclado (HTTP)
+OK    contrast_manual: contraste de nodos «incompletos» de axe
+OK    keys_test: claves del chat sin ambiguedad
+OK    sec_scan: revision estatica + CSP efectiva
+OK    tests_hostal_acuarela_burgos por file://
+OK    a11y_test por file://
+
+8/8 comprobaciones OK · resultados en /tmp/clon-hostal-acuarela-burgos/out
+run_checks exit 0
