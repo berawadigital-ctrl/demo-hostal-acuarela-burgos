@@ -1,0 +1,345 @@
+{
+ "url": "file:///tmp/clon-hostal-acuarela-burgos/repo/index.html",
+ "langs": {
+  "es": {
+   "textos_iguales_al_es": [],
+   "chat": [
+    {
+     "q": "¿Qué habitaciones tenéis?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Tiene 29 habitaciones exteriores (individual, doble y familiar) y un Estudio-Suite, un ático de lujo con terraza privada totalmente equipado"
+    },
+    {
+     "q": "¿Cuánto cuesta una habitación?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Según su web (leída el 30/10/2026), las tarifas son: habitación individual desde 50 €, doble desde 65 €, familiar desde 82 € y Estudio Suite"
+    },
+    {
+     "q": "¿A qué hora es el check-in?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "El check-in es de 16:00 a 22:00 h y el check-out de 12:00 a 12:30 h."
+    },
+    {
+     "q": "¿Puedo ir con mi perro?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Sí, se admiten animales de compañía. Según su web (leída el 30/10/2026), el suplemento es de 10 € por día; confírmalo al reservar. Consultar"
+    },
+    {
+     "q": "¿Hay parking?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "El hostal no tiene parking propio, pero ofrece la posibilidad de servicio de parking en el parking Virgen del Manzano. Pregunta al reservar."
+    },
+    {
+     "q": "¿Hay wifi?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Hay WiFi gratuito de alta velocidad en todas las habitaciones, con opción de conexión por cable, y cada habitación tiene ordenador portátil."
+    },
+    {
+     "q": "¿Hay terraza?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "En la tercera planta hay una terraza acristalada con zona común gratuita: mesas, sillas, microondas, tostador y frigorífico, con unas precio"
+    },
+    {
+     "q": "¿Dónde está el hostal?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Está en Calle Guardia Civil 7, Burgos, en el corazón comercial de la ciudad y muy próximo al casco histórico."
+    },
+    {
+     "q": "¿Cómo reservo?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Su web no tiene motor de reservas: se reserva por WhatsApp (638 968 116), por correo a reservas@hostalacuarela.com o llamando al 947 20 50 5"
+    },
+    {
+     "q": "¿Podéis confirmarme disponibilidad para mañana?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Su web no tiene motor de reservas: se reserva por WhatsApp (638 968 116), por correo a reservas@hostalacuarela.com o llamando al 947 20 50 5"
+    },
+    {
+     "q": "¿Hay restaurante?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 947 20 50 50 · reservas@hostalacuarela.com."
+    },
+    {
+     "q": "¿Tenéis piscina?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "No dispongo de esa información. Escríbenos o llámanos: +34 947 20 50 50 · reservas@hostalacuarela.com."
+    }
+   ],
+   "chips": [
+    "¿Qué habitaciones tenéis?",
+    "¿Cuánto cuesta una habitación?",
+    "¿A qué hora es el check-in?",
+    "¿Puedo ir con mi perro?"
+   ]
+  },
+  "en": {
+   "textos_iguales_al_es": [
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Which rooms do you have?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "It has 29 exterior rooms (single, double and family) and a Studio-Suite, a fully equipped luxury penthouse with private terrace. All with hy"
+    },
+    {
+     "q": "How much is a room?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "According to their website (read on 30/10/2026), rates are: single room from €50, double from €65, family from €82 and Studio Suite from €11"
+    },
+    {
+     "q": "What time is check-in?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Check-in is from 16:00 to 22:00 and check-out from 12:00 to 12:30."
+    },
+    {
+     "q": "Can I bring my dog?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Yes, pets are welcome. According to their website (read on 30/10/2026), the supplement is €10 per day; please confirm it when you book. Ask "
+    },
+    {
+     "q": "Is there parking?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "The hostel has no car park of its own, but offers the possibility of parking service at the Virgen del Manzano car park. Ask when you book."
+    },
+    {
+     "q": "Is there wifi?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "There is free high-speed WiFi in all rooms, with a cable connection option, and every room has a laptop."
+    },
+    {
+     "q": "Is there a terrace?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "On the third floor there is a glazed terrace with a free common area: tables, chairs, microwave, toaster and fridge, with beautiful views. T"
+    },
+    {
+     "q": "Where is the hostel?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "It is at Calle Guardia Civil 7, Burgos, in the commercial heart of the city and very close to the historic centre."
+    },
+    {
+     "q": "How do I book?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Their website has no booking engine: you book by WhatsApp (638 968 116), by email to reservas@hostalacuarela.com or by calling 947 20 50 50."
+    },
+    {
+     "q": "Can you confirm availability for tomorrow?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Their website has no booking engine: you book by WhatsApp (638 968 116), by email to reservas@hostalacuarela.com or by calling 947 20 50 50."
+    },
+    {
+     "q": "Is there a restaurant?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 947 20 50 50 · reservas@hostalacuarela.com."
+    },
+    {
+     "q": "Do you have a swimming pool?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "I don't have that information. Please contact us: +34 947 20 50 50 · reservas@hostalacuarela.com."
+    }
+   ],
+   "chips": [
+    "Which rooms do you have?",
+    "How much is a room?",
+    "What time is check-in?",
+    "Can I bring my dog?"
+   ]
+  },
+  "fr": {
+   "textos_iguales_al_es": [
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Quelles chambres avez-vous ?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Il compte 29 chambres extérieures (individuelle, double et familiale) et un Studio-Suite, penthouse de luxe entièrement équipé avec terrasse"
+    },
+    {
+     "q": "Combien coûte une chambre ?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Selon leur site (consulté le 30/10/2026), les tarifs sont : chambre individuelle à partir de 50 €, double à partir de 65 €, familiale à part"
+    },
+    {
+     "q": "À quelle heure est l'arrivée ?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "L'arrivée se fait de 16:00 à 22:00 et le départ de 12:00 à 12:30."
+    },
+    {
+     "q": "Puis-je venir avec mon chien ?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Oui, les animaux de compagnie sont acceptés. Selon leur site (consulté le 30/10/2026), le supplément est de 10 € par jour ; confirmez-le lor"
+    },
+    {
+     "q": "Y a-t-il un parking ?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Le hostal n'a pas de parking propre, mais propose un service de stationnement au parking Virgen del Manzano. Demandez lors de la réservation"
+    },
+    {
+     "q": "Y a-t-il le wifi ?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "WiFi haut débit gratuit dans toutes les chambres, avec possibilité de connexion par câble, et chaque chambre dispose d'un ordinateur portabl"
+    },
+    {
+     "q": "Y a-t-il une terrasse ?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Au troisième étage, une terrasse vitrée avec espace commun gratuit : tables, chaises, micro-ondes, grille-pain et réfrigérateur, avec une be"
+    },
+    {
+     "q": "Où se trouve l'hostal ?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Il se trouve Calle Guardia Civil 7, Burgos, au cœur commerçant de la ville et tout près du centre historique."
+    },
+    {
+     "q": "Comment réserver ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Leur site n'a pas de moteur de réservation : on réserve par WhatsApp (638 968 116), par e-mail à reservas@hostalacuarela.com ou au 947 20 50"
+    },
+    {
+     "q": "Pouvez-vous me confirmer la disponibilité pour demain ?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Leur site n'a pas de moteur de réservation : on réserve par WhatsApp (638 968 116), par e-mail à reservas@hostalacuarela.com ou au 947 20 50"
+    },
+    {
+     "q": "Y a-t-il un restaurant ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 947 20 50 50 · reservas@hostalacuarela.com."
+    },
+    {
+     "q": "Avez-vous une piscine ?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Je ne dispose pas de cette information. Contactez-nous : +34 947 20 50 50 · reservas@hostalacuarela.com."
+    }
+   ],
+   "chips": [
+    "Quelles chambres avez-vous ?",
+    "Combien coûte une chambre ?",
+    "À quelle heure est l'arrivée ?",
+    "Puis-je venir avec mon chien ?"
+   ]
+  },
+  "de": {
+   "textos_iguales_al_es": [
+    "intro_k"
+   ],
+   "chat": [
+    {
+     "q": "Welche Zimmer gibt es?",
+     "esperado": "K01",
+     "ok": true,
+     "respuesta": "Es gibt 29 Außenzimmer (Einzel-, Doppel- und Familienzimmer) und eine Studio-Suite, ein voll ausgestattetes Luxus-Penthouse mit privater Ter"
+    },
+    {
+     "q": "Was kostet ein Zimmer?",
+     "esperado": "K02",
+     "ok": true,
+     "respuesta": "Laut Website (abgerufen am 30/10/2026) gelten folgende Preise: Einzelzimmer ab 50 €, Doppelzimmer ab 65 €, Familienzimmer ab 82 € und Studio"
+    },
+    {
+     "q": "Wann ist der Check-in?",
+     "esperado": "K03",
+     "ok": true,
+     "respuesta": "Check-in ist von 16:00 bis 22:00 Uhr, Check-out von 12:00 bis 12:30 Uhr."
+    },
+    {
+     "q": "Darf ich meinen Hund mitbringen?",
+     "esperado": "K04",
+     "ok": true,
+     "respuesta": "Ja, Haustiere sind willkommen. Laut Website (abgerufen am 30/10/2026) beträgt der Zuschlag 10 € pro Tag; bitte bei der Buchung bestätigen. P"
+    },
+    {
+     "q": "Gibt es einen Parkplatz?",
+     "esperado": "K05",
+     "ok": true,
+     "respuesta": "Das Hostal hat keinen eigenen Parkplatz, bietet aber die Möglichkeit eines Parkservice im Parkhaus Virgen del Manzano. Fragen Sie bei der Bu"
+    },
+    {
+     "q": "Gibt es WLAN?",
+     "esperado": "K06",
+     "ok": true,
+     "respuesta": "Es gibt kostenloses Highspeed-WLAN in allen Zimmern, auch per Kabel, und jedes Zimmer hat einen Laptop."
+    },
+    {
+     "q": "Gibt es eine Terrasse?",
+     "esperado": "K07",
+     "ok": true,
+     "respuesta": "Im dritten Stock gibt es eine verglaste Terrasse mit kostenlosem Gemeinschaftsbereich: Tische, Stühle, Mikrowelle, Toaster und Kühlschrank, "
+    },
+    {
+     "q": "Wo liegt das Hostal?",
+     "esperado": "K08",
+     "ok": true,
+     "respuesta": "Es liegt in der Calle Guardia Civil 7, Burgos, im Geschäftszentrum der Stadt und ganz nah an der Altstadt."
+    },
+    {
+     "q": "Wie kann ich buchen?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Die Website hat keine Buchungsmaschine: Gebucht wird per WhatsApp (638 968 116), per E-Mail an reservas@hostalacuarela.com oder telefonisch "
+    },
+    {
+     "q": "Können Sie mir die Verfügbarkeit für morgen bestätigen?",
+     "esperado": "K09",
+     "ok": true,
+     "respuesta": "Die Website hat keine Buchungsmaschine: Gebucht wird per WhatsApp (638 968 116), per E-Mail an reservas@hostalacuarela.com oder telefonisch "
+    },
+    {
+     "q": "Gibt es ein Restaurant?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 947 20 50 50 · reservas@hostalacuarela.com."
+    },
+    {
+     "q": "Haben Sie ein Schwimmbad?",
+     "esperado": "DESCONOCIDA",
+     "ok": true,
+     "respuesta": "Diese Information liegt mir nicht vor. Schreiben oder rufen Sie uns an: +34 947 20 50 50 · reservas@hostalacuarela.com."
+    }
+   ],
+   "chips": [
+    "Welche Zimmer gibt es?",
+    "Was kostet ein Zimmer?",
+    "Wann ist der Check-in?",
+    "Darf ich meinen Hund mitbringen?"
+   ]
+  }
+ },
+ "fail": [],
+ "ok": true
+}

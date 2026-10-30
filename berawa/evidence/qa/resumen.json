@@ -1,0 +1,48 @@
+{
+ "zip_sha256": "e4753a5570b83b90580b30fcaaa783a7bf4229d91f154fab5be1460ab65cc078",
+ "zip_determinista": true,
+ "zip_en_git_igual": true,
+ "zip_ficheros_distintos_de_la_rama": [],
+ "zip_run_checks_ok": false,
+ "zip_check_kb_ok": true,
+ "clon_ok": false,
+ "clon_head": "293a1833620c708e8a5899d0cd329c00177c68ed",
+ "check_kb_ok": true,
+ "rg_workspace_vacio": true,
+ "git_diff_check_ok": true,
+ "viewports": {
+  "movil": {
+   "desbordamiento_horizontal_px": 0,
+   "altura_pagina": 5386
+  },
+  "escritorio": {
+   "desbordamiento_horizontal_px": 0,
+   "altura_pagina": 4412
+  }
+ },
+ "lighthouse": {
+  "mobile": {
+   "performance": 99,
+   "accessibility": 100,
+   "best-practices": 100,
+   "seo": 58
+  },
+  "desktop": {
+   "performance": 100,
+   "accessibility": 100,
+   "best-practices": 100,
+   "seo": 58
+  }
+ },
+ "lighthouse_seo_fallos": {
+  "mobile": [
+   "is-crawlable",
+   "robots-txt"
+  ],
+  "desktop": [
+   "is-crawlable",
+   "robots-txt"
+  ]
+ },
+ "minutos": 6.9
+}

@@ -1,0 +1,16 @@
+OK    tests_hostal_acuarela_burgos: 4 idiomas + chatbot contra la base (HTTP)
+OK    a11y_test: axe-core + teclado (HTTP)
+FALLO contrast_manual: contraste de nodos «incompletos» de axe
+   108 nodos medidos; 4 por debajo del mínimo
+   {'vp': 'desktop', 'l': 'es', 'sel': 'div[data-t="hero_k"]', 'color': 'rgb(255, 255, 255)', 'size': 12.48, 'peor_contraste': 4.42, 'minimo': 4.5, 'ok': False}
+   {'vp': 'desktop', 'l': 'fr', 'sel': 'div[data-t="hero_k"]', 'color': 'rgb(255, 255, 255)', 'size': 12.48, 'peor_contraste': 4.42, 'minimo': 4.5, 'ok': False}
+   {'vp': 'movil', 'l': 'es', 'sel': 'div[data-t="hero_k"]', 'color': 'rgb(255, 255, 255)', 'size': 12.48, 'peor_contraste': 4.45, 'minimo': 4.5, 'ok': False}
+   {'vp': 'movil', 'l': 'fr', 'sel': 'div[data-t="hero_k"]', 'color': 'rgb(255, 255, 255)', 'size': 12.48, 'peor_contraste': 4.45, 'minimo': 4.5, 'ok': False}
+   /workspace/agentes/webs/demos-v10/repos/demo-hostal-acuarela-burgos/berawa/build/contrast_manual.py:31: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+     im=Image.open(io.BytesIO(png)).convert('RGB');px=list(im.getdata())
+OK    keys_test: claves del chat sin ambiguedad
+OK    sec_scan: revision estatica + CSP efectiva
+OK    tests_hostal_acuarela_burgos por file://
+OK    a11y_test por file://
+
+6/7 comprobaciones OK · resultados en /workspace/agentes/webs/demos-v10/repos/demo-hostal-acuarela-burgos/berawa/evidence/qa/zip
