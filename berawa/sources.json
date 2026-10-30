@@ -1,0 +1,23 @@
+{
+ "schema": "berawa-sources/1",
+ "site": "https://hostalacuarela.com/",
+ "read_at": "2026-10-30T07:12:46+01:00",
+ "method": "Texto visible de cada pagina leido de la web publica del negocio en la fecha indicada (fetch_sources.py) y guardado en berawa/evidence/source-text.json; las citas del chatbot se comprueban contra ese texto con check_kb.py.",
+ "pages": [
+  {
+   "url": "https://hostalacuarela.com/",
+   "sha256": "6d22f56f57aad81bedd290ad093677afe95a41b78a3ff78502b928a9cad50ea1",
+   "chars": 3848
+  }
+ ],
+ "other_pages_read": [
+  "https://hostalacuarela.com/aviso-legal-y-condiciones-generales/",
+  "https://hostalacuarela.com/en/",
+  "https://hostalacuarela.com/en/cookie-policy/",
+  "https://hostalacuarela.com/en/legal-notice-and-general-conditions/",
+  "https://hostalacuarela.com/fr/",
+  "https://hostalacuarela.com/fr/mentions-legales-et-conditions-generales/",
+  "https://hostalacuarela.com/fr/politique-des-cookies/",
+  "https://hostalacuarela.com/politica-de-cookies/"
+ ]
+}
