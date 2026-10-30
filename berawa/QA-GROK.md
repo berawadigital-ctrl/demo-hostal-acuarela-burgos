@@ -2,9 +2,9 @@
 
 Autocontrol de fabricación (G04, A1–A11) y checklist C01–C16 (`docs/BERAWA-QA-CHECKLIST.md`) pasados por Grok antes del PR. **No es una auditoría independiente ni una aprobación**: Codex solo audita una muestra y nada se publica ni se envía sin visto bueno de Juan.
 
-- Rama: `demo/hostal-acuarela-burgos` · HEAD de las pruebas: `293a1833620c708e8a5899d0cd329c00177c68ed` · fecha: 30/10/2026 07:15 (Europe/Madrid)
+- Rama: `demo/hostal-acuarela-burgos` · HEAD de las pruebas: `3396228ac11c25a9588bb7f1b0fe62d51a7f9cbb` · fecha: 30/10/2026 07:27 (Europe/Madrid)
 - Entorno: Chromium de Playwright (instalado por `playwright install chromium` en el clon limpio), axe-core 4.14.0, Lighthouse 13.6.0 (3 pasadas, mediana).
-- Resultado: **QA_GROK_FAIL**
+- Resultado: **QA_GROK_PASS**
 - Negocio medido: Maps 4.1 (LEIDA, coincide tel, web) · web original: LCP > 4 s · titular HOSTAL ACUARELA, S.L. (persona jurídica, sin cadena).
 
 ## Controles A1–A11
@@ -12,20 +12,20 @@ Autocontrol de fabricación (G04, A1–A11) y checklist C01–C16 (`docs/BERAWA-
 |---|---|---|---|
 | A1 | Idiomas ES/EN/FR/DE (selector con 4 botones; ningún otro idioma) | **CUMPLE** | qa/chat-i18n.json, qa/file-chat-i18n.json (data-t = traducción; alemán completo; sin restos de otros idiomas; un ?lang= no previsto cae a es) |
 | A2 | Chatbot con knowledge.json (citas, cifras, 4+ preguntas por idioma, desconocida, forzar invención, reserva, claves ambiguas = 0) | **CUMPLE** | qa/check_kb.txt, qa/chat-i18n.json, keys_test en qa/run_checks-zip.txt y qa/clon-limpio.txt |
-| A3 | Accesibilidad: axe sin violaciones (2 viewports × 4 idiomas × inicio/menú/chat), Lighthouse accesibilidad ≥ 95, teclado, contraste sobre foto ≥ 4,5 | **NO** | qa/axe-teclado.json, qa/contraste.json, qa/lighthouse-3pasadas.json |
+| A3 | Accesibilidad: axe sin violaciones (2 viewports × 4 idiomas × inicio/menú/chat), Lighthouse accesibilidad ≥ 95, teclado, contraste sobre foto ≥ 4,5 | **CUMPLE** | qa/axe-teclado.json, qa/contraste.json, qa/lighthouse-3pasadas.json |
 | A4 | Seguridad: sin innerHTML con datos, noopener noreferrer, sin terceros, CSP por meta probada | **CUMPLE** | qa/seguridad.json |
 | A5 | Datos con fuente y fecha; leídas todas las fichas | **CUMPLE** | berawa/sources.json, berawa/evidence/source-text.json, berawa/evidence/captacion.json |
 | A6 | Imágenes: ninguna del negocio; manifiesto con hash, origen y licencia | **CUMPLE** | berawa/asset_manifest.json (todo origin=generated + fuente OFL), LICENSES.md |
-| A7 | Entrega: ZIP determinista, descomprimido y probado por HTTP y file://, idéntico a la rama | **NO** | qa/run_checks-zip.txt, qa/zip/, resumen.json (sha256 del ZIP, 0 ficheros distintos) |
+| A7 | Entrega: ZIP determinista, descomprimido y probado por HTTP y file://, idéntico a la rama | **CUMPLE** | qa/run_checks-zip.txt, qa/zip/, resumen.json (sha256 del ZIP, 0 ficheros distintos) |
 | A8 | Trazabilidad: un commit por bloque; scripts y evidencias commiteados; cambios V1.0 aparte | **CUMPLE** | git log de la rama; berawa/V1.0-CAMBIOS.md |
 | A9 | Precios del chatbot: REGLA DE PRECIOS: CUMPLE | **CUMPLE** | qa/check_kb.txt, qa/check_kb-zip.txt |
-| A10 | Reproducibilidad: clon limpio + dependencias documentadas + run_checks --file en verde; rg /workspace vacío | **NO** | qa/clon-limpio.txt, qa/rg-workspace.txt |
+| A10 | Reproducibilidad: clon limpio + dependencias documentadas + run_checks --file en verde; rg /workspace vacío | **CUMPLE** | qa/clon-limpio.txt, qa/rg-workspace.txt |
 | A11 | git diff --check main...HEAD sin salida | **CUMPLE** | qa/git-diff-check.txt |
 
 ## Checklist C01–C16
 | Código | Control | Resultado | Evidencia |
 |---|---|---|---|
-| C01 | Repositorio y SHA | **CUMPLE** | HEAD del clon limpio = 293a1833620c708e8a5899d0cd329c00177c68ed (el SHA final del PR es el del commit que añade este informe) |
+| C01 | Repositorio y SHA | **CUMPLE** | HEAD del clon limpio = 3396228ac11c25a9588bb7f1b0fe62d51a7f9cbb (el SHA final del PR es el del commit que añade este informe) |
 | C02 | Identidad y fuentes | **CUMPLE** | nombre, teléfono, dirección y datos comerciales con cita literal en berawa/knowledge.json; titular persona jurídica sin cadena y nota de Maps en berawa/evidence/captacion.json |
 | C03 | Licencias | **CUMPLE** | asset_manifest.json: ilustraciones propias generadas (origin=generated) y fuente Cormorant OFL; ninguna imagen, logo ni vídeo del negocio |
 | C04 | Diseño personalizado y no suplantador | **CUMPLE** | paleta e ilustraciones propias, aviso «Propuesta de rediseño independiente, no oficial» arriba y en el pie, sin logo ni marca del negocio; revisión visual de qa/capturas/ |
@@ -39,7 +39,7 @@ Autocontrol de fabricación (G04, A1–A11) y checklist C01–C16 (`docs/BERAWA-
 | C12 | CTA con destinos reales, sin falsa reserva | **CUMPLE** | solo mailto:, tel: y enlaces a páginas de reserva del propio negocio (project.json → book); sin motor propio; sec_scan |
 | C13 | Transparencia: aviso demo no oficial y noindex | **CUMPLE** | aviso visible en los 4 idiomas, meta robots noindex,nofollow y robots.txt Disallow: / |
 | C14 | Seguridad: sin secretos, XSS ni recolección engañosa | **CUMPLE** | qa/seguridad.json; el sitio no recoge datos |
-| C15 | Entrega: ZIP, descomprimir, servir y navegar fuera de GitHub Pages | **NO** | qa/run_checks-zip.txt (HTTP y file:// sobre el ZIP descomprimido) |
+| C15 | Entrega: ZIP, descomprimir, servir y navegar fuera de GitHub Pages | **CUMPLE** | qa/run_checks-zip.txt (HTTP y file:// sobre el ZIP descomprimido) |
 | C16 | Rendimiento medido (Lighthouse 3 pasadas, mediana) | **CUMPLE** | qa/lighthouse-3pasadas.json · SEO < 90 por el `noindex,nofollow` y el `robots.txt` con `Disallow: /` (is-crawlable y robots-txt), exigidos por la V1.0; no se maquilla. |
 
 ## Lighthouse (mediana de 3 pasadas)
