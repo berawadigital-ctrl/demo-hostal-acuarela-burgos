@@ -1,0 +1,30 @@
+{
+ "schema": "berawa-captacion/1",
+ "negocio": "hostal-acuarela-burgos",
+ "maps": {
+  "fecha": "2026-10-29T12:43:53+01:00",
+  "estado": "LEIDA",
+  "ficha": "Hostal Acuarela",
+  "nota": 4.1,
+  "coincide": {
+   "tel": true,
+   "web": true
+  },
+  "url": "https://www.google.com/maps/place/Hostal+Acuarela/@42.3451614,-3.69491,17z/data=!4m9!3m8!1s0xd45fcda8eabec5d:0x360771483d799dbb!5m2!4m1!1i2!8m2!3d42.3451614!4d-3.69491!16s%2Fg%2F1vc_rp1w",
+  "herramienta": "factory/webfactory/maps_rating.py"
+ },
+ "web_filtro": {
+  "fecha": "2026-10-29T12:43:53+01:00",
+  "veredicto": "MEJORABLE",
+  "informe_velocidad": "LCP > 4 s",
+  "herramienta": "filtro_mala_web.py (Lighthouse movil, mediana de 3 pasadas)"
+ },
+ "titular": {
+  "razon_social": "HOSTAL ACUARELA, S.L.",
+  "cif": "B09497579",
+  "fuente": "https://hostalacuarela.com/aviso-legal-y-condiciones-generales/",
+  "persona_juridica": true,
+  "cadena": false,
+  "nota": "aviso legal de su web; un solo hostal, sin otros centros ni marca de grupo"
+ }
+}
